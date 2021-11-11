@@ -1,6 +1,6 @@
 # IMGLAB
-Some Matlab Code of Image Processing
-1. RobustCorner2 -- Corner Detection
+Some Matlab Codes of Image Processing
+1. RobustCorner2 -- Feature Fusion based Corner Detection
 
 I = imread('dataset\lab.bmp');
 tic;
