@@ -2,7 +2,7 @@ function xx = global_scale_factor(curv, P, T, LE, LE2, CC2)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Author: Changlin Wan
 % E-mail: wancl@21cn.com
-% Function: noise_rate
+% Function: global_scale_factor
 % Version: 1.0
 % Date: 2021/11/11
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
