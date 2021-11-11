@@ -1,4 +1,12 @@
 function [cm,rn,cn,ix] = corner_curvature12(a, mag2, R2, rr, cc, tx, ty, EDGE, curv, V, P, T, bin, th)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Changlin Wan
+% E-mail: wancl@21cn.com
+% Function: corner_curvature12
+% Version: 1.0
+% Date: 2021/11/11
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 [m,n] = size(curv);
 
 mag = (tx.^2+ty.^2);

@@ -1,5 +1,11 @@
 function xx = contour_scale_factor(curv, P, T, LE, LE2)
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Changlin Wan
+% E-mail: wancl@21cn.com
+% Function: contour_scale_factor
+% Version: 1.0
+% Date: 2021/11/11
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ln = max(LE(:));
 
 curv_u = zeros(ln,1);
