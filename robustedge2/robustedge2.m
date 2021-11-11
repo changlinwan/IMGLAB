@@ -1,8 +1,11 @@
 function [ eout, mag, ori, dx, dy, idxWeak, bone] = robustedge2(a, sigma, thresh)
-%ROBUSTEDGE Summary of this function goes here
-%   Detailed explanation goes here
-
-% Transform to a double precision intensity image if necessary
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Changlin Wan
+% E-mail: wancl@21cn.com
+% Function: robustedge2
+% Version: 1.0
+% Date: 2021/11/11
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 if ~isa(a, 'double')
     a = im2double(a);
 end
