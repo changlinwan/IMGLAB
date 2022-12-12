@@ -1,5 +1,5 @@
 # IMGLAB
-Some Matlab Codes of Image Processing (Demo Site http://www.92io.cn)
+Some Matlab Codes of Image Processing
 1. RobustCorner2 -- Feature Fusion based Corner Detection
 
 I = imread('dataset\lab.bmp');
